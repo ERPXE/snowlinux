@@ -1,0 +1,14 @@
+MENU BEGIN SNOWLINUX
+MENU LABEL ^SnowLinux 3.0
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/snowlinux/snowlinux.png
+
+MENU INCLUDE er/plugins/snowlinux/i386/snowlinuxmain.menu
+MENU INCLUDE er/plugins/snowlinux/x86_64/snowlinuxmain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

@@ -1,0 +1,8 @@
+LABEL SNOWLINUX64
+MENU LABEL ^SnowLinux Live - x64
+KERNEL er/plugins/snowlinux/x86_64/linux
+INITRD er/plugins/snowlinux/x86_64/initrd.lz
+APPEND vga=normal boot=live live-config netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/snowlinux/x86_64/ ramdisk_size=200000 nolock
+TEXT HELP
+                 SnowLinux Live x64.
+ENDTEXT
